@@ -1,11 +1,11 @@
 
-import java.util.Scanner;
+// import java.util.Scanner;
+import java.util.*;
 
 public class boilerPlate{
 
     //print an array--
     static void printArr (int[] arr){
-        System.out.print("Array is : ");
          for(int i=0 ; i < arr.length ; i++){
            System.out.print( arr[i] + " ");
         }
@@ -24,6 +24,7 @@ public class boilerPlate{
         for(int i=0 ; i < n ; i++){
             arr[i] = sc.nextInt();
         }
+        System.out.print("Array is : ");
         printArr(arr);
        
       
