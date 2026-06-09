@@ -1,8 +1,8 @@
 
-// import java.util.Scanner;
-import java.util.*;
+import java.util.Scanner;
+// import java.util.*;
 
-public class boilerPlate{
+public class array{
 
     //print an array--
     static void printArr (int[] arr){
