@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+import java.util.Arrays;
 // import java.util.*;
 
 public class array{
@@ -24,8 +25,8 @@ public class array{
         for(int i=0 ; i < n ; i++){
             arr[i] = sc.nextInt();
         }
-        System.out.print("Array is : ");
-        printArr(arr);
+        System.out.print("Array is : " + Arrays.toString(arr)); //Array is : [1, 2, 3, 4, 5]
+        // printArr(arr);
        
       
     }
