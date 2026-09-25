@@ -16,10 +16,10 @@ class Solution {
             sum +=nums[i];
 
             if(map.containsKey(sum)){
-                int lastTime = map.get(sum);
-                maxLen = Math.max(maxLen, i - lastTime);
+                int lastTime = map.get(sum); // it will check the hashMap, agr same sum previously aya ho and jis index prr aya hoga usko return krega
+                maxLen = Math.max(maxLen, i - lastTime); // i - lastTime == length dega ye subarray ki, previous occus to current occur
             }else{
-                map.put(sum, i);
+                map.put(sum, i); //agr kabhi nhi aya ho to, update krega hashmap ko new key value add kerke
             }
         }
         return maxLen;
